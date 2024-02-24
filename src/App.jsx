@@ -30,7 +30,7 @@ const myRoutes = createBrowserRouter([
         path: "",
         element: <Layout />,
         children: [
-            { path: "", element: <Navigate to={"/home"} /> },
+            { path: "", element: <Navigate to={"/login"} /> },
             {
                 path: "register",
                 element: (
@@ -41,6 +41,7 @@ const myRoutes = createBrowserRouter([
             },
             {
                 path: "login",
+                index: true,
                 element: (
                     <AuthProtectedRoute>
                         <Login />
