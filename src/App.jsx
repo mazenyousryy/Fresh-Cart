@@ -31,6 +31,7 @@ const myRoutes = createBrowserRouter([
         element: <Layout />,
         children: [
             { path: "", element: <Navigate to={"/login"} /> },
+            { path: "/Fresh-Cart", element: <Navigate to={"/login"} /> },
             {
                 path: "register",
                 element: (
