@@ -1,3 +1,7 @@
+![image](https://github.com/mazenyousryy/Fresh-Cart/assets/92648260/e09ec571-b84d-48fb-9c0d-31835091888c)
+
+
+
 Fresh Cart is my first E-commerce project that is built using React.js.
 It allows you to create an account, log in to it, and then add your needed & desired products to your cart or save them in your Wishlist for a future purchase.
 
